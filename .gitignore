@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large Video Files (Datasets & Outputs)
+*.mp4
+*.avi
+*.mkv
+*.mov
+sample_videos/
+
+# Pose weights downloaded on demand (only the default nano model is versioned)
+*.pt
+!yolov8n-pose.pt
+
+# Local virtual environment
+.venv/
+
+# Personal / Document Files
+*.docx
+
+# OS / IDE artifacts
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Partial downloads
+*.part
